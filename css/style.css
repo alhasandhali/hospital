@@ -1,0 +1,671 @@
+/* ==========================================
+            Common CSS Start
+========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --hover: #f18d26;
+    --sky: #3ca2a2;
+    --blue: #215a6d;
+    --pata: #92c7a3;
+    --red: #c70811;
+}
+
+/* ==========================================
+            Common CSS End
+========================================== */
+/* ==========================================
+            Header CSS Start
+========================================== */
+#head {
+    padding: 13px 0 16px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 83px;
+    margin-right: 9px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.head_line {
+    width: 635px;
+}
+
+.head_line h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #3ca2a2;
+    line-height: 88px;
+}
+
+.head_number {
+    width: 243px;
+}
+
+.head_number p {
+    font-weight: 500;
+    font-size: 30px;
+    color: #b76262;
+    line-height: 88px;
+    text-align: right;
+}
+
+/* ==========================================
+            Header CSS End
+========================================== */
+/* ==========================================
+            Menu CSS Start
+========================================== */
+#menu {
+    background: linear-gradient(to top, #ae1010 0%, #cf0511 100%);
+}
+
+.main_menu {
+    width: 870px;
+}
+
+.main_menu ul {
+    display: flex;
+}
+
+.main_menu ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    padding: 17px 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    background: var(--hover);
+}
+
+.menu_icon {
+    width: 100px;
+    text-align: right;
+}
+
+.menu_icon a {
+    width: 27px;
+    height: 27px;
+    background: #fff;
+    color: #bf0a11;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 14px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.menu_icon a:hover {
+    background: var(--hover);
+    color: #fff;
+}
+
+/* ==========================================
+            Menu CSS End
+========================================== */
+
+/* ==========================================
+            Banner CSS Start
+========================================== */
+#banner {
+    padding: 75px 0 77px;
+}
+
+.banner_text {
+    width: 415px;
+}
+
+.banner_text h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #215a6d;
+}
+
+.banner_text h1 span {
+    display: block;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    color: #215a6d;
+    margin-top: -5px;
+}
+
+.banner_text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #215a6d;
+    margin-right: 130px;
+    padding-top: 16px;
+}
+
+.banner_text a {
+    padding: 15px 25px;
+    background: #92c7a3;
+    border-radius: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner_text a:hover {
+    background: var(--hover);
+}
+
+.positioning {
+    position: relative;
+}
+
+.banner_img {
+    width: 595px;
+    position: absolute;
+    right: 85px;
+    bottom: -77px;
+}
+
+/* ==========================================
+            Banner CSS End
+========================================== */
+
+/* ==========================================
+            Sevice CSS Start
+========================================== */
+#service {
+    padding: 40px 0 80px;
+}
+
+.serv_col {
+    width: 33.33%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.serv_col h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--sky);
+    padding-bottom: 18px;
+}
+
+.serv_col p {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--blue);
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.serv_col a {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--pata);
+    padding-top: 18px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.serv_col a i {
+    color: var(--red);
+    padding-right: 7px;
+}
+
+.serv_col a:hover {
+    color: var(--hover);
+}
+/* ==========================================
+            Sevice CSS End
+========================================== */
+/* ==========================================
+            Notice CSS Start
+========================================== */
+#notice {
+    padding: 30px 0;
+    background: #dfece6;
+}
+
+.nb {
+    width: 48%;
+    margin-right: 30px;
+}
+
+.nb:last-child {
+    margin-right: 0;
+}
+
+.common_head h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--blue);
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.common_head h2::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+.common_head h2::before {
+    position: absolute;
+    content: '';
+    width: 54px;
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+    background: var(--red);
+    z-index: 1;
+}
+
+.nb ul {
+    margin-top: 30px;
+}
+
+.nb ul li {
+    background: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--sky);
+    line-height: 42px;
+    padding-left: 10px;
+    border-bottom: 1px solid #5cc2d1;
+}
+
+.nb ul li:last-child {
+    border: none;
+}
+
+.nb ul li i {
+    float: right;
+    font-size: 20px;
+    line-height: 42px;
+    width: 46px;
+    color: #fff;
+    background: var(--red);
+    text-align: center;
+}
+
+.nb a {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--red);
+    margin-top: 23px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.nb a:hover {
+    color: var(--hover);
+}
+
+.nb a i {
+    padding-right: 6px;
+    color: var(--red);
+}
+
+.nb img {
+    margin-top: 30px;
+    padding: 10px;
+}
+/* ==========================================
+            Notice CSS End
+========================================== */
+/* ==========================================
+            Gallery CSS Start
+========================================== */
+#gallery {
+    padding: 62px 0;
+}
+
+.gal_col {
+    width: 31.27%;
+    margin-right: 30px;
+}
+
+.gal_col:last-child {
+    margin-right: 0;
+}
+
+.cc h2 {
+    margin-bottom: 40px;
+}
+
+.cc h2::after {
+    background: #eaeaea;
+}
+
+.gal_col .news h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--sky);
+    padding-bottom: 2px;
+}
+
+.gal_col .news p {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--blue);
+    line-height: 20px;
+}
+
+.news {
+    position: relative;
+}
+
+.news::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 1px;
+    background: #dfece6;
+}
+
+.news2{
+    margin-top: 60px;
+}
+
+.gal_col .news2 h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--sky);
+    padding-bottom: 2px;
+}
+
+.gal_col .news2 p {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--blue);
+    line-height: 20px;
+}
+
+.gal_col ul {
+    margin-top: 44px;
+}
+
+.gal_col ul li {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--blue);
+    margin-bottom: 8px;
+}
+
+.gal_col ul li i {
+    color: var(--red);
+    padding-right: 8px;
+}
+
+.gal_col a {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--blue);
+    margin-top: 40px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.gal_col a i {
+    color: var(--red);
+    padding-right: 6px;
+}
+
+.marg a {
+    margin-top: 78px;
+}
+
+.photo ul li img {
+    border: 4px solid #dfece6;
+}
+
+.photo ul li {
+    margin-right: 30px;
+    float: left;
+    width: 45.05%;
+}
+
+.photo ul li:nth-child(2),
+.photo ul li:last-child {
+    margin-right: 0;
+}
+
+.photo a {
+    margin-top: 32px;
+}
+
+.gal_col a:hover {
+    color: var(--hover);
+}
+/* ==========================================
+            Gallery CSS End
+========================================== */
+/* ==========================================
+            Doctor CSS Start
+========================================== */
+#doctor {
+    padding-bottom: 92px;
+}
+
+.cc2 {
+    margin-bottom: -10px;
+}
+
+.dctr {
+    width: 31.27%;
+    margin-right: 30px;
+}
+
+.dctr img {
+    width: 100%;
+    max-width: 100%;
+    border: 5px solid #dfece6;
+}
+
+.dctr h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3ca2a2;
+    margin-top: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.dctr:hover h4 {
+    color: var(--hover);
+}
+
+.dctr p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+}
+
+.dctr p span {
+    display: block;
+    color: #cf0511;
+    margin-top: 4px;
+}
+
+.dctr:last-child {
+    margin-right: 0;
+}
+
+/* ==========================================
+            Doctor CSS End
+========================================== */
+
+/* ==========================================
+            Footer CSS Start
+========================================== */
+.foot_up {
+    padding: 23px 0 34px;
+    background: #222;
+}
+
+.foot_logo {
+    width: 83px;
+    margin-right: 18px;
+    float: left;
+
+}
+
+.foot_logo img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.foot_head h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25.76px;
+    color: #3ca2a2;
+    line-height: 83px;
+    float: left;
+}
+
+.foot_col {
+    margin-top: 45px;
+    margin-bottom: -2px;
+}
+
+.foot_col .foot_ul {
+    width: 25%;
+}
+
+
+.foot_col .foot_ul h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3ca2a2;
+    margin-bottom: 15px;
+}
+
+.foot_col .foot_ul ul li {
+    margin-bottom: 10px;
+}
+
+.foot_col .foot_ul ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #c6ded9;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.foot_col .foot_ul ul li a:hover {
+    color: var(--hover);
+}
+
+.foot_col .foot_ul ul li a i {
+    color: #c30911;
+    padding-right: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.foot_col .foot_ul ul li a:hover i {
+    color: #c6ded9;
+}
+
+.foot_down {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background: #cf0511;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c6ded9;
+    text-align: center;
+}
+
+/* ==========================================
+            Footer CSS End
+========================================== */
